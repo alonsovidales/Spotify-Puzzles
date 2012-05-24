@@ -28,7 +28,7 @@ class Bilateral:
 		return finalVertex
 
 	def __convertEdgesToGraph(self, inEdges):
-		""" This method recieve a set of edges, and returns a disctionary of sets that represents
+		""" This method recieve a set of edges, and returns a dictionary of sets that represents
 		the edges.
 		@param inEdges set: A set of sets with the vertices each set that defines an edge
 		@return dictionary: A dictionary of sets where the key are the vertices at the left and
